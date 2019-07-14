@@ -4,3 +4,7 @@ function checkEven(num) {
   else if (num === 1) return false;
   else return checkEven(num - 2);
 }
+
+// Tests:
+console.log(checkEven(99)); // false
+console.log(checkEven(86)); // true
