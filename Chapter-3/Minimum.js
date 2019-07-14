@@ -5,4 +5,4 @@ function min(nums) {
 }
 
 // Test:
-console.log(min([253, 456, 23, 1534])) // 23
+console.log(min([253, 456, 23, 1534])); // 23
