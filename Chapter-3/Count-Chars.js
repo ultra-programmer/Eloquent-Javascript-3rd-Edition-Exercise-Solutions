@@ -2,3 +2,6 @@
 function countChar(str, char) {
   return str.split('').filter(c => c === char).length;
 }
+
+// Test:
+console.log(countChar("Hello World!", "l")); // 3
